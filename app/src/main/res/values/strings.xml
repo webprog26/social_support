@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Support</string>
+    <string name="google_app_id">367271229562</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="swipe_settings">Enable swipe</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="title_activity_add">AddActivity</string>
+
+    <string name="dismiss_swipe">Dismiss</string>
+    <string name="cancel_question">Cancel?</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="families_tab_title">Families</string>
+    <string name="persons_tab_title">Persons</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Enter request</string>
+    <string name="menu_show_all">Show all</string>
+    <string name="menu_all_clients">All the clients</string>
+    <string name="under_support">Support</string>
+    <string name="menu_support_continues">Support continues</string>
+    <string name="stopped_support">Stopped support</string>
+    <string name="with_positive_result">With positive result</string>
+    <string name="with_negative_result">With negative result</string>
+    <string name="action_camera">Camera</string>
+
+
+    <!--Adding new family to support-->
+    <string name="first_name_hint">First name</string>
+    <string name="patronymic_hint">Patronymic</string>
+    <string name="second_name_hint">Second name</string>
+    <string name="address_hint">Address</string>
+    <string name="adults_amount_hint">Adults amount</string>
+    <string name="kids_amount_hint">Kids amount</string>
+    <string name="problem_hint">Problem</string>
+    <string name="button_add">Add</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="is_dlc">Is DLC?</string>
+    <string name="is_under_support">Is under support?</string>
+    <string name="title_activity_fragment_add">FragmentAddActivity</string>
+
+    <!--Errors while inputing-->
+    <string name="error_employee_first_name">Enter your first name</string>
+    <string name="error_employee_second_name">Enter your second name</string>
+    <string name="error_first_name">Enter first name</string>
+    <string name="error_patronymic">Enter patronymic</string>
+    <string name="error_second_name">Enter second name</string>
+    <string name="error_address">Enter address</string>
+    <string name="error_adults_amount">Enter adults amount</string>
+    <string name="error_kids_amount">Enter kids amount</string>
+    <string name="error_problem">Describe problem</string>
+    <string name="spinner_prompt">Low-income</string>
+
+    <string name="enable_swipe">Enable swipe</string>
+    <string name="disable_swipe">Disable swipe</string>
+
+    <string name="swipe_enabled">Swipe-to-dismiss enabled</string>
+    <string name="swipe_disabled">Swipe-to-dismiss disabled</string>
+
+    <!--Client profile-->
+    <string name="profile_second_name">Second name: %s</string>
+    <string name="profile_first_name">First name: %s</string>
+    <string name="profile_patronymic">Patronymic: %s</string>
+    <string name="profile_address">Address: %s</string>
+    <string name="profile_category">Category: %s</string>
+    <string name="profile_problem">Problem: %s</string>
+    <string name="profile_adults_amount">Adults amount: %s</string>
+    <string name="profile_kids_amount">Kids amount: %s</string>
+    <string name="profile_services_amount">Services amount: %s</string>
+    <string name="profile_visits_amount">Visits amount: %s</string>
+    <string name="profile_is_dlc">DLC: %s</string>
+    <string name="profile_is_under_support">Is under support: %s</string>
+    <string name="profile_is_support_finished">Is support finished: %s</string>
+    <string name="profile_support_finished_on_date">Finished on date: %s</string>
+    <string name="profile_support_result">With result: %s</string>
+    <string name="date_support_starts">From date: %s</string>
+    <string name="date_picker_title">Choose a date</string>
+    <string name="no_support_or_dlc">no</string>
+    <string name="yes_support_or_dlc">yes</string>
+    <string name="is_support_finished">Is support finished?</string>
+    <string name="date_support_finished">On date: %s</string>
+
+
+    <string name="date_of_visit">Date of visit:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="services_types_prompt">Information</string>
+    <string name="service_type">Service type:</string>
+    <string name="services_amount">Services amount:</string>
+    <string name="without_visit">Without visit</string>
+    <string name="add_service">Add service</string>
+    <string name="service_during_visit">During visit</string>
+    <string name="add_visit">Add visit</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="support_completed">completed</string>
+    <string name="with_result">With result:</string>
+    <string name="support_continues">continues</string>
+    <string name="result_positive">Positive</string>
+    <string name="result_negative">Negative</string>
+    <string name="error_services_amount">Enter services number</string>
+
+    <string name="info">Information:</string>
+    <string name="soc_ped">Socio-pedagogical:</string>
+    <string name="soc_psycho">Socio-psychological:</string>
+    <string name="jurist">Juristical:</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search_params">Search parameters</string>
+    <string name="addictive_parameters">Addictive parameters:</string>
+    <string name="search_parameters_family">Family</string>
+    <string name="search_parameters_person">Person</string>
+
+    <string name="action_share">Share</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="add_marker">Add marker</string>
+    <string name="marker_category">Marker caregory:</string>
+    <string name="marker_categories_prompt">Home</string>
+    <string name="marker_title_hint">Marker title</string>
+    <string name="marker_snippet_hint">Marker snippet</string>
+    <string name="error_marker_title">Enter marker title</string>
+    <string name="error_marker_snippet">Enter marker snippet</string>
+    <string name="dismiss_marker">Dismiss marker</string>
+    <string name="dismiss_marker_agree">Delete</string>
+    <string name="marker_added">Marker added: %s</string>
+    <string name="gps_disabled">GPS disabled</string>
+    <string name="enable_gps">Enable it?</string>
+    <string name="enter_your_data">Enter your data</string>
+    <string name="employee_first_name">Your first name</string>
+    <string name="employee_second_name">Your second name</string>
+
+    <!--Make report-->
+    <string name="reports">Reports</string>
+    <string name="my_reports">My reports</string>
+    <string name="make_report">Make report</string>
+    <string name="make_report_from_date">From date:</string>
+    <string name="make_report_to_date">To date:</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="no_reports_found">No reports found</string>
+
+    <string name="disable_support">Disable "Under support" field</string>
+
+    <!--Reports sheets titles-->
+    <string name="report_sheet_families">Families</string>
+    <string name="report_sheet_persons">Persons</string>
+
+
+</resources>

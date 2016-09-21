@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Categories-->
+    <string-array name="families_categories">
+        <item>Одинокая мать</item>
+        <item>Малообеспеченность</item>
+        <item>Многодетные</item>
+        <item>Инвалидность ребенка</item>
+        <item>Социальное сиротство</item>
+        <item>Зависимость</item>
+        <item>Пьянстьво</item>
+        <item>Насилие</item>
+        <item>СПИД</item>
+        <item>Условно осужденные</item>
+        <item>Заключенный</item>
+        <item>Освобожденный</item>
+        <item>Бродяжничество</item>
+        <item>Безработица</item>
+        <item>Потеря жилья</item>
+        <item>Одинокий отец</item>
+        <item>Уклонение от родительских обязанностей</item>
+        <item>Отсутствие документов</item>
+        <item>Конфликты в семье</item>
+        <item>Переселенцы АРК</item>
+        <item>Переселенцы АТО</item>
+        <item>Безответственные родители</item>
+        <item>Участник АТО, военный</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="persons_categories">
+        <item>Переселенцы</item>
+        <item>Сироты</item>
+        <item>Безответственное родительство</item>
+        <item>Военнослужащие</item>
+        <item>Другое</item>
+    </string-array>
+
+    <!--Services types-->
+    <string-array name="services_types">
+        <item>Информационные</item>
+        <item>Социально-педагогические</item>
+        <item>Социально-психологические</item>
+        <item>Юридические</item>
+    </string-array>
+
+    <!--Marker categories-->
+    <string-array name="marker_categories">
+        <item>Дом</item>
+        <item>Учеба</item>
+        <item>Работа</item>
+    </string-array>
+
+    <!--Excel columns titles-->
+    <!--Families-->
+    <string-array name="families_report_titles">
+        <item>Семей</item>
+        <item>Взрослых</item>
+        <item>Детей</item>
+        <item>Им услуг</item>
+        <item>Первых посещений</item>
+        <item>Всего посещений</item>
+        <item>Семей в СЖО</item>
+        <item>Взрослых</item>
+        <item>Детей</item>
+        <item>Им услуг</item>
+        <item>Сопровождение</item>
+        <item>Им услуг</item>
+        <item>Сопровождение закончено (+)</item>
+        <item>Сопровождение закончено (-)</item>
+    </string-array>
+    <!--Persons-->
+    <string-array name="persons_report_titles">
+        <item>Личностей</item>
+        <item>Им услуг</item>
+        <item>Первых посещений</item>
+        <item>Всего посещений</item>
+        <item>Личностей в СЖО</item>
+        <item>Им услуг</item>
+        <item>Сопросвождение</item>
+        <item>Услуг</item>
+        <item>Сопровождение закончено (+)</item>
+        <item>Сопровождение закончено (-)</item>
+    </string-array>
+</resources>

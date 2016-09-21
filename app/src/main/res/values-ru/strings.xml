@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Поддержка</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="swipe_settings">Включить удаление</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="open_drawer">Открыть</string>
+    <string name="close_drawer">Закрыть</string>
+    <string name="title_activity_add">AddActivity</string>
+
+    <string name="dismiss_swipe">Удаление</string>
+    <string name="cancel_question">Отменить?</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="families_tab_title">Семьи</string>
+    <string name="persons_tab_title">Персоны</string>
+
+    <string name="search">Поиск</string>
+    <string name="search_hint">Введите запрос</string>
+    <string name="menu_show_all">Клиенты</string>
+    <string name="menu_all_clients">Все клиенты</string>
+    <string name="under_support">Социальное сопровождение</string>
+    <string name="menu_support_continues">Сопровождение продолжается</string>
+    <string name="stopped_support">Сопровождение остановлено</string>
+    <string name="with_positive_result">С позитивным результатом</string>
+    <string name="with_negative_result">С негативным результатом</string>
+    <string name="action_camera">Камера</string>
+
+
+    <!--Добавление новой семьи-->
+    <string name="first_name_hint">Имя</string>
+    <string name="patronymic_hint">Отчество</string>
+    <string name="second_name_hint">Фамилия</string>
+    <string name="address_hint">Адрес</string>
+    <string name="adults_amount_hint">Количество взрослых</string>
+    <string name="kids_amount_hint">Количество детей</string>
+    <string name="problem_hint">Проблема</string>
+    <string name="button_add">Добавить</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="is_dlc">В СЖО?</string>
+    <string name="is_under_support">Сопровождение?</string>
+    <string name="title_activity_fragment_add">FragmentAddActivity</string>
+
+    <!--Обработка ошибок пользовательского ввода-->
+    <string name="error_first_name">Введите имя</string>
+    <string name="error_patronymic">Введите отчество</string>
+    <string name="error_second_name">Введите фамилию</string>
+    <string name="error_address">Введите адрес</string>
+    <string name="error_kids_amount">Введите количество детей</string>
+    <string name="error_problem">Опишите проблему</string>
+    <string name="spinner_prompt">Малообеспеченность</string>
+
+    <string name="enable_swipe">Включить удаление</string>
+    <string name="disable_swipe">Отключить удаление</string>
+
+    <string name="swipe_enabled">Удаление включено</string>
+    <string name="swipe_disabled">Удаление отключено</string>
+
+    <!--Профиль клиента-->
+    <string name="profile_second_name">Фамилия: %s</string>
+    <string name="profile_first_name">Имя: %s</string>
+    <string name="profile_patronymic">Отчество: %s</string>
+    <string name="profile_address">Адрес: %s</string>
+    <string name="profile_category">Категория: %s</string>
+    <string name="profile_problem">Проблема: %s</string>
+    <string name="profile_adults_amount">Количество взрослых: %s</string>
+    <string name="profile_kids_amount">Количество детей: %s</string>
+    <string name="profile_services_amount">Всего услуг: %s</string>
+    <string name="profile_visits_amount">Всего посещений: %s</string>
+    <string name="profile_is_dlc">СЖО: %s</string>
+    <string name="profile_is_under_support">Сопровождение: %s</string>
+    <string name="profile_is_support_finished">Сопровождение окончено: %s</string>
+    <string name="profile_support_finished_on_date">Окончено: %s</string>
+    <string name="profile_support_result">С результатом: %s</string>
+    <string name="date_support_starts">Начато: %s</string>
+    <string name="date_picker_title">Выберите дату</string>
+    <string name="no_support_or_dlc">нет</string>
+    <string name="yes_support_or_dlc">да</string>
+    <string name="is_support_finished">Сопровождение окончено?</string>
+    <string name="date_support_finished">Дата: %s</string>
+
+
+
+
+    <string name="date_of_visit">Дата посещения:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="services_types_prompt">Информационных</string>
+    <string name="service_type">Тип услуги:</string>
+    <string name="services_amount">Всего услуг:</string>
+    <string name="without_visit">Без посещения</string>
+    <string name="add_service">Добавить услугу</string>
+    <string name="service_during_visit">Во время посещения?</string>
+    <string name="add_visit">Добавить посещение</string>
+
+    <string name="cancel">Отмена</string>
+
+    <string name="support_completed">завершен</string>
+    <string name="with_result">Результат:</string>
+    <string name="support_continues">продолжается</string>
+    <string name="result_positive">Позитивный</string>
+    <string name="result_negative">Негативный</string>
+    <string name="error_services_amount">Введете количество услуг</string>
+
+    <string name="info">Информационных:</string>
+    <string name="soc_ped">Социально-педагогических:</string>
+    <string name="soc_psycho">Социально-психологических:</string>
+    <string name="jurist">Юридических:</string>
+    <string name="search_params">Параметры поиска</string>
+    <string name="addictive_parameters">Дополнительные параметры:</string>
+    <string name="search_parameters_family">Семья</string>
+    <string name="search_parameters_person">Персона</string>
+
+    <string name="action_share">Поделиться</string>
+
+
+    <string name="add_marker">Добавить маркер</string>
+    <string name="marker_category">Категория маркера:</string>
+    <string name="marker_categories_prompt">Дом</string>
+    <string name="marker_title_hint">Название маркера</string>
+    <string name="marker_snippet_hint">Описание маркера</string>
+    <string name="error_marker_title">Введите название маркера</string>
+    <string name="error_marker_snippet">Введите описание маркера</string>
+    <string name="dismiss_marker">Удаление маркера</string>
+    <string name="dismiss_marker_agree">Ок</string>
+    <string name="marker_added">Добавлен маркер: %s</string>
+    <string name="gps_disabled">GPS отключен</string>
+    <string name="enable_gps">Включить?</string>
+    <string name="enter_your_data">Введите Ваши данные</string>
+    <string name="employee_first_name">Ваше имя</string>
+    <string name="employee_second_name">Ваша фамилия</string>
+
+    <!--Создание отчета-->
+    <string name="reports">Отчеты</string>
+    <string name="my_reports">Мои отчеты</string>
+    <string name="make_report">Создать отчет</string>
+    <string name="make_report_from_date">Начальная дата:</string>
+    <string name="make_report_to_date">Финальная дата:</string>
+    <string name="no_reports_found">Отчеты не найдены</string>
+
+    <string name="disable_support">Отключите поле "Сопровождение"</string>
+
+    <!--Названия листов отчета-->
+    <string name="report_sheet_families">Семьи</string>
+    <string name="report_sheet_persons">Персоны</string>
+
+
+</resources>

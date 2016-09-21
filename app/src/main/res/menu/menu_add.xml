@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.webprog26.support.activities.AddActivity">
+    <item android:id="@+id/action_camera"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          app:showAsAction="always"
+        android:icon="@mipmap/ic_camera_enhance_black_24dp"/>
+</menu>

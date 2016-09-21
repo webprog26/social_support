@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.webprog26.support.activities.MapActivity"
+    android:id="@+id/parentLayout">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/app_bar_layout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/ToolbarTheme"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_map"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        app:elevation="6dp"
+        android:id="@+id/fbAddMarker"
+        android:src="@drawable/ic_add_location_white_24dp"
+        app:backgroundTint="@color/colorFAB2"
+        android:visibility="gone"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        app:elevation="6dp"
+        android:id="@+id/fbEditMarker"
+        android:src="@drawable/ic_create_white_24dp"
+        app:backgroundTint="@color/colorFAB1"
+        android:visibility="gone"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="90dp"
+        app:elevation="6dp"
+        android:id="@+id/fbClearMarker"
+        android:src="@drawable/ic_clear_white_24dp"
+        app:backgroundTint="@color/swipe_warning"
+        android:visibility="gone"/>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:sabd="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navigation_subheader_1"
+            android:title="@string/menu_show_all">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:id="@+id/showAll"
+                        android:title="@string/menu_all_clients"
+                        android:icon="@drawable/ic_people_black_24dp"
+                        />
+                </group>
+            </menu>
+        </item>
+        <item android:id="@+id/navigation_subheader_2"
+            android:title="@string/under_support">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:id="@+id/supportContinues"
+                        android:title="@string/menu_support_continues"
+                        android:icon="@drawable/ic_accessibility_black_24dp"
+                        />
+                </group>
+            </menu>
+        </item>
+        <item android:id="@+id/navigation_subheader_3"
+              android:title="@string/stopped_support">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:id="@+id/positiveResult"
+                          android:title="@string/with_positive_result"
+                          android:icon="@drawable/ic_thumb_up_black_24dp"
+                        />
+                    <item android:id="@+id/negativeResult"
+                          android:title="@string/with_negative_result"
+                          android:icon="@drawable/ic_thumb_down_black_24dp"/>
+                </group>
+            </menu>
+        </item>
+        <item android:id="@+id/navigation_subheader_4"
+            android:title="@string/reports">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:id="@+id/myReports"
+                        android:title="@string/my_reports"
+                        android:icon="@drawable/ic_library_books_black_24dp"/>
+                    <item android:id="@+id/makeReport"
+                        android:title="@string/make_report"
+                        android:icon="@drawable/ic_create_black_24dp"/>
+                </group>
+            </menu>
+        </item>
+        <item android:id="@+id/drawer_search"
+            android:title="@string/search"
+            android:icon="@mipmap/ic_search_black_24dp"
+            app:showAsAction="always"/>
+    </group>
+</menu>

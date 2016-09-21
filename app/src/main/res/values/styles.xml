@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="listPopupWindowStyle">@style/MyListPopupWindowStyle</item>
+        <!-- Customize your theme here. -
+        -->
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- This would set the toolbar's background color -->
+        <item name="android:background">@android:color/transparent</item>
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@android:color/holo_blue_dark</item>
+        <!-- android:actionMenuTextColor is the color of the text of action (menu) items  -->
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <!-- Enable these below if you want clicking icons to trigger a ripple effect -->
+        <!--
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        -->
+        <item name="android:textColor">@color/primary_text_color</item>
+    </style>
+
+    <style name="SearchToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- This would set the toolbar's background color -->
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- android:actionMenuTextColor is the color of the text of action (menu) items  -->
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <!-- Enable these below if you want clicking icons to trigger a ripple effect -->
+        <!--
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        -->
+        <item name="android:textColor">@color/primary_text_color</item>
+    </style>
+
+    <style name="SpecialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#555</item>
+        <item name="android:textColorPrimary">#fff</item>
+    </style>
+
+    <style name="DialogButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#1c1a8e</item>
+        <item name="android:textColorPrimary">#fff</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">#f8eff7</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textAppearance">?attr/textAppearanceListItem</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SearchViewTheme">
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+    <style name="MyListPopupWindowStyle" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">#a199d1ff</item>
+    </style>
+
+</resources>

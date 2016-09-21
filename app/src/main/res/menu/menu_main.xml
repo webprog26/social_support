@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item android:id="@+id/action_swipe_mode"
+          android:title="@string/swipe_settings"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+      <item android:id="@+id/action_search"
+          android:title="@string/search"
+          android:icon="@mipmap/ic_search_black_24dp"
+          app:showAsAction="ifRoom"/>
+</menu>

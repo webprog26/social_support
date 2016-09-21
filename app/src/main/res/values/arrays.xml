@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Categories-->
+    <string-array name="families_categories">
+        <item>Lonely mother</item>
+        <item>Low-income</item>
+        <item>Many children</item>
+        <item>Disability parents</item>
+        <item>Child Disability</item>
+        <item>Social orphanage</item>
+        <item>Addiction</item>
+        <item>Drunkenness</item>
+        <item>Violence</item>
+        <item>HIV / AIDS</item>
+        <item>Probationer</item>
+        <item>Stay in the MOU</item>
+        <item>The release of the MOU</item>
+        <item>Vagrancy</item>
+        <item>Unemployment family</item>
+        <item>Lack / loss of housing</item>
+        <item>Single parent</item>
+        <item>Evasion of responsibilities parents</item>
+        <item>Absence of documents</item>
+        <item>Conflicts in family</item>
+        <item>IDPs ARC</item>
+        <item>IDPs ATO</item>
+        <item>Irresponsible parenthood</item>
+        <item>Participant ATO, military</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="persons_categories">
+        <item>Person IDPs ARC</item>
+        <item>Person IDPs ATO</item>
+        <item>Person Irresponsible parenthood</item>
+        <item>Person Participant ATO, military</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--Services types-->
+    <string-array name="services_types">
+        <item>Information</item>
+        <item>Socio-pedagogical</item>
+        <item>Socio-psychological</item>
+        <item>Juristical</item>
+    </string-array>
+
+    <!--Marker categories-->
+    <string-array name="marker_categories">
+        <item>Home</item>
+        <item>Studying</item>
+        <item>Work</item>
+    </string-array>
+
+    <!--Excel columns titles-->
+    <!--Families-->
+    <string-array name="families_report_titles">
+        <item>Families</item>
+        <item>Families adults</item>
+        <item>Families kids</item>
+        <item>Families services</item>
+        <item>First time visits</item>
+        <item>Total visits</item>
+        <item>Families in DLC</item>
+        <item>Adults</item>
+        <item>Kids</item>
+        <item>Services</item>
+        <item>Families under support</item>
+        <item>Services</item>
+        <item>Support stopped with positive result</item>
+        <item>Support stopped with negative result</item>
+    </string-array>
+    <!--Persons-->
+    <string-array name="persons_report_titles">
+        <item>Persons</item>
+        <item>Services</item>
+        <item>First time visits</item>
+        <item>Total visits</item>
+        <item>Persons in DLC</item>
+        <item>Services</item>
+        <item>Persons under support</item>
+        <item>Services</item>
+        <item>Support stopped (+)</item>
+        <item>Support stopped (-)</item>
+    </string-array>
+</resources>

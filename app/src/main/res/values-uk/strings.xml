@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Підтримка</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="swipe_settings">Увімкнути видалення</string>
+    <string name="action_settings">Налаштування</string>
+
+    <string name="open_drawer">Відкрити</string>
+    <string name="close_drawer">Закрити</string>
+    <string name="title_activity_add">AddActivity</string>
+
+    <string name="dismiss_swipe">Видалення</string>
+    <string name="cancel_question">Відмінити?</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="families_tab_title">Сім\'ї</string>
+    <string name="persons_tab_title">Особи</string>
+
+    <string name="search">Пошук</string>
+    <string name="search_hint">Введіть запит</string>
+    <string name="menu_show_all">Клієнти</string>
+    <string name="menu_all_clients">Всі клієнти</string>
+    <string name="under_support">Соціальний супровід</string>
+    <string name="menu_support_continues">Супровід триває</string>
+    <string name="stopped_support">Супровід завершений</string>
+    <string name="with_positive_result">З позитивним результатом</string>
+    <string name="with_negative_result">З негативним результатом</string>
+    <string name="action_camera">Камера</string>
+
+    <!--Добавление новой семьи-->
+    <string name="first_name_hint">Ім\'я</string>
+    <string name="patronymic_hint">По батькові</string>
+    <string name="second_name_hint">Прізвище</string>
+    <string name="address_hint">Адреса</string>
+    <string name="adults_amount_hint">Кількість дорослих</string>
+    <string name="kids_amount_hint">Кількість дітей</string>
+    <string name="problem_hint">Проблема</string>
+    <string name="button_add">Додати</string>
+    <string name="button_cancel">Відміна</string>
+    <string name="is_dlc">В СЖО?</string>
+    <string name="is_under_support">Супровід?</string>
+    <string name="title_activity_fragment_add">FragmentAddActivity</string>
+
+    <!--Обработка ошибок пользовательского ввода-->
+    <string name="error_first_name">Введіть ім\'я</string>
+    <string name="error_patronymic">Введіть по батькові</string>
+    <string name="error_second_name">Введіть прізвище</string>
+    <string name="error_address">Введіть адресу</string>
+    <string name="error_kids_amount">Введіть кількість дітей</string>
+    <string name="error_problem">Опишіть проблему</string>
+    <string name="spinner_prompt">Малозабезпеченість</string>
+
+    <string name="enable_swipe">Увімкнути видалення</string>
+    <string name="disable_swipe">Вимкнути видалення</string>
+
+    <string name="swipe_enabled">Видалення увімкненне</string>
+    <string name="swipe_disabled">Видалення вимкнене</string>
+
+    <!--Профиль клиента-->
+    <string name="profile_second_name">Прізвище: %s</string>
+    <string name="profile_first_name">Ім\'я: %s</string>
+    <string name="profile_patronymic">По батькові: %s</string>
+    <string name="profile_address">Адреса: %s</string>
+    <string name="profile_category">Категорія: %s</string>
+    <string name="profile_problem">Проблема: %s</string>
+    <string name="profile_adults_amount">Кількість дорослих: %s</string>
+    <string name="profile_kids_amount">Кількість дітей: %s</string>
+    <string name="profile_services_amount">Всього послуг: %s</string>
+    <string name="profile_visits_amount">Всього відвідувань: %s</string>
+    <string name="profile_is_dlc">СЖО: %s</string>
+    <string name="profile_is_under_support">Супровід: %s</string>
+    <string name="profile_is_support_finished">Супровід завершений: %s</string>
+    <string name="profile_support_finished_on_date">Завершений: %s</string>
+    <string name="profile_support_result">З результатом: %s</string>
+    <string name="date_support_starts">Початий: %s</string>
+    <string name="date_picker_title">Виберіть дату</string>
+    <string name="no_support_or_dlc">ні</string>
+    <string name="yes_support_or_dlc">так</string>
+    <string name="is_support_finished">Супровід завершений?</string>
+    <string name="date_support_finished">Дата: %s</string>
+
+
+    <string name="date_of_visit">Дата відвідування:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="services_types_prompt">Інформаційних</string>
+    <string name="service_type">Тип послуги:</string>
+    <string name="services_amount">Всього послуг:</string>
+    <string name="without_visit">Без відвідування</string>
+    <string name="add_service">Додати послугу</string>
+    <string name="service_during_visit">Під час відвідування?</string>
+    <string name="add_visit">Додати відвідування</string>
+
+    <string name="cancel">Відміна</string>
+
+    <string name="support_completed">завершений</string>
+    <string name="with_result">Результат:</string>
+    <string name="support_continues">триває</string>
+    <string name="result_positive">Позитивний</string>
+    <string name="result_negative">Негативний</string>
+    <string name="error_services_amount">Введіть кількість послуг</string>
+
+    <string name="info">Інформаційних:</string>
+    <string name="soc_ped">Соціально-педагогічних:</string>
+    <string name="soc_psycho">Соціально-психологічних:</string>
+    <string name="jurist">Юридичних:</string>
+    <string name="search_params">Параметри пошуку</string>
+    <string name="addictive_parameters">Додаткові параметри:</string>
+    <string name="search_parameters_family">Сім\'я</string>
+    <string name="search_parameters_person">Особа</string>
+
+    <string name="action_share">Поділитися</string>
+
+    <string name="add_marker">Додати маркер</string>
+    <string name="marker_category">Категорія маркеру:</string>
+    <string name="marker_categories_prompt">Дім</string>
+    <string name="marker_title_hint">Назва маркеру</string>
+    <string name="marker_snippet_hint">Опис маркеру</string>
+    <string name="error_marker_title">Введіть назву маркеру</string>
+    <string name="error_marker_snippet">Введіть опис маркеру</string>
+    <string name="dismiss_marker">Видалення маркеру</string>
+    <string name="dismiss_marker_agree">Ок</string>
+    <string name="marker_added">Добавлений маркер: %s</string>
+    <string name="gps_disabled">GPS вимкнений</string>
+    <string name="enable_gps">Увімкнути?</string>
+    <string name="enter_your_data">Введіть Ваші дані</string>
+    <string name="employee_first_name">Ваше ім\'я</string>
+    <string name="employee_second_name">Ваше прізвище</string>
+
+    <!--Создание отчета-->
+    <string name="reports">Звіти</string>
+    <string name="my_reports">Мої звіти</string>
+    <string name="make_report">Створити звіт</string>
+    <string name="make_report_from_date">Початкова дата:</string>
+    <string name="make_report_to_date">Кінцева дата:</string>
+    <string name="no_reports_found">Звіти не знайдені</string>
+
+    <string name="disable_support">Вимкніть поле "Супровід"</string>
+
+    <!--Названия листов отчета-->
+    <string name="report_sheet_families">Сім\'ї</string>
+    <string name="report_sheet_persons">Особи</string>
+
+
+</resources>
